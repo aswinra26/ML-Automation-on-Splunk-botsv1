@@ -38,8 +38,7 @@ The following attack chain was reconstructed by correlating HTTP logs with Sysmo
 6.  3791.exe establishes C2 connection to 23.22.63.114 on Port 3791 (Sysmon Event ID 3)
    
 
-C.  Phase I<img width="1920" height="1080" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/13bbc8cf-9b00-401f-810c-22d7831b6fc3" />
- — Manual Threat Hunting
+C.  Phase I — Manual Threat Hunting
 Before any automation, the attack is traced manually by following the Cyber Kill Chain, correlating logs across HTTP traffic and Sysmon endpoint telemetry.
 
 Step 1 |  Reconnaissance — Finding the Scanner
