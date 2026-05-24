@@ -1,2 +1,2 @@
 # ML-Automation-on-Splunk-botsv1
-Traced a full APT kill chain across Splunk BOTSv1 dataset, manual threat hunting meets AI/ML automation using MLTK to further mean time detection.
+Traced a full APT kill chain across Splunk BOTSv1 dataset, manual threat hunting meets AI/ML automation using MLTK to further mean time detection.Correlated HTTP traffic and Sysmon endpoint telemetry to reconstruct Recon-to-C2 attack sequence, identifying key IOCs including a live malware process chain and C2 callback. Deployed a DensityFunction anomaly detection model using Splunk MLTK, reducing Mean Time to Detect from hours to under 60 seconds with an automated high-severity alert.
